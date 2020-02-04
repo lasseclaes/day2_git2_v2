@@ -13,7 +13,8 @@ function animateBubble(bubble) {
   const hue = Math.random() * 360;
   bubble.style.transform = "translate(" + randX + "vw, " + randY + "vh)";
   //  bubble.style.background = "hsl(120),70%,70%";
-  bubble.style.background = "hsl(" + hue + "),70%,70%";
+  bubble.style.background = "hsl(" + hue + ", 70%, 70%)";
+  console.log(bubble.style.background)
 }
 
 
