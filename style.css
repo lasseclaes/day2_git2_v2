@@ -3,4 +3,7 @@
   height: 100px;
   border-radius: 50%;
   background: hsl(120, 70%, 70%);
+  position: absolute;
+  transition: all 8s;
+  /* step 3 ish */
 }
